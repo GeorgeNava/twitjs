@@ -12,7 +12,7 @@ $code( for(i in data.twits){ )
   <li>
     <img src="$(data.twits[i].profile_image_url)">
     <h3><a href="http://twitter.com/$(data.twits[i].from_user)">$(data.twits[i].from_user)</a></h3>
-    <p>$(data.query?data.twits[i].text.replace(new RegExp(data.query,"gi"),'<b>'+data.query+'</b>'):data.twits[i].text)</p>
+    <p>$(data.twits[i].text.replace(new RegExp(data.query,'gi'),'<b>'+data.query+'</b>'))</p>
     <small>$(new Date(data.twits[i].created_at).format('D, d M Y H:i:s'))</small>
   </li>
 $code( } )
