@@ -10,7 +10,8 @@ li img{width:48px; height:48px; float:left; margin:6px 12px 12px 0;}
 small{color:#AAA; font-size:0.7em;}
 #hose{width:560px; margin:32px auto; padding:12px; background:white;}
 #hose{border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px;}
-#hose{box-shadow:2px 2px 2px #333; -webkit-box-shadow:1px 1px 5px #333; -moz-box-shadow:2px 2px 2px #333;}
+#hose{box-shadow:1px 1px 5px #333; -webkit-box-shadow:1px 1px 5px #333; -moz-box-shadow:1px 1px 5px #333;}
 #search{float:right;}
-#q{width:200px; height:32px; font-size:1.6em; color:#CCC; border:1px solid #CCC; -webkit-border-radius:4px;}
+#q{width:200px; height:32px; font-size:1.6em; color:#CCC; border:1px solid #CCC;}
+#q{border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
 #q:focus{color:#000; content:'';}
